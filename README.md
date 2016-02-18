@@ -21,4 +21,5 @@ $ tar -xf mysqlchecksize.tar.gz             # Extract mysqlchecksize from tarbal
 $ sudo cp mysqlchecksize /usr/bin           # Copy the mysqlchecksize executable to somewhere in your $PATH
 $ sudo chown mysql /usr/bin/mysqlchecksize  # MySQL user must own the executable
 $ sudo chmod u+s /usr/bin/mysqlchecksize    # Set the sticky bit so the file executes as the mysql user
+$ sudo chmod a+x /usr/bin/mysqlchecksize    # Make sure all users can run this command
 ```
